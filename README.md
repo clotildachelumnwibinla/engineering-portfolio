@@ -1,12 +1,42 @@
-# Engineering Portfolio — GitHub Update
+# Engineering Portfolio
 
-This package adds the recruiter-focused homepage structure and project detail pages.
+## Upload structure
 
-## Upload
-Replace your existing `index.html`, `styles.css`, `script.js` and `README.md`. Upload the five files inside `projects/` into a `projects` path in the repository.
+Keep the files in this exact structure:
 
-## Before publishing
-- Replace `YOUR_EMAIL`, `YOUR_LINKEDIN_URL` and `YOUR_GITHUB_URL` in `index.html`.
-- Review the skills and tools to ensure every item accurately reflects your experience.
-- Link only approved public documents. Do not publish confidential BMW information, internal screenshots, factory layouts, process parameters or non-public results.
-- Your existing `documents` item can remain for now; it does not affect the website.
+```text
+repository-root/
+├── index.html
+├── styles.css
+├── script.js
+├── README.md
+└── projects/
+    ├── factory-digitalisation.html
+    ├── battery-production.html
+    ├── cad-cam.html
+    ├── masters-thesis.html
+    └── wandflansch.html
+```
+
+## Upload to GitHub
+
+1. Open your portfolio repository.
+2. Choose **Add file → Upload files**.
+3. Upload `index.html`, `styles.css`, `script.js`, and `README.md` into the repository root.
+4. Open the `projects` folder on your computer and upload its five HTML files into the existing `projects` folder in GitHub. If GitHub does not let you select a folder, open `projects` in the repository first, then upload the five files there.
+5. Commit all changes to `main`.
+
+Do not upload the ZIP itself as a replacement for the website files. Extract it first and preserve the folder structure.
+
+## GitHub Pages
+
+In **Settings → Pages**, choose **Deploy from a branch**, select `main`, and choose `/(root)`.
+
+## Personalise before publishing
+
+In `index.html`, replace:
+- `YOUR_EMAIL`
+- `YOUR_LINKEDIN_URL`
+- `YOUR_GITHUB_URL`
+
+The project descriptions are drafted from the information provided in the conversation. Please verify technical details and remove anything that is not accurate or approved for public release. Do not publish confidential BMW information, internal screenshots, production data, layouts, or process parameters.

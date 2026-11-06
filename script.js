@@ -1,1 +1,19 @@
-document.addEventListener('DOMContentLoaded',()=>{const toggle=document.querySelector('.menu-toggle'),nav=document.querySelector('.main-nav');if(toggle&&nav){toggle.addEventListener('click',()=>{const open=nav.classList.toggle('open');toggle.setAttribute('aria-expanded',String(open))});nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('open')))}const d={factory:'Power BI, AWS Athena, CDH and Factory Viewer → BMW Factory Digitalisation & Scanning.',exapt:'SolidWorks, EXAPTsolid, AutoCAD and Autodesk → EXAPT CAD/CAM Simulation & Application Support.',thesis:'Python, Jupyter, YOLO, PyTorch and MATLAB → Master’s Thesis / AI for Battery Manufacturing.'};document.querySelectorAll('.skill').forEach(s=>s.addEventListener('click',()=>{document.querySelectorAll('.skill').forEach(x=>x.classList.remove('active'));s.classList.add('active');const p=document.querySelector('.skill-preview');if(p)p.textContent=d[s.dataset.project]||'Related engineering project.';const card=document.getElementById(s.dataset.project);if(card){card.classList.add('highlight');card.scrollIntoView({behavior:'smooth',block:'center'});setTimeout(()=>card.classList.remove('highlight'),1800)}}));const y=document.getElementById('year');if(y)y.textContent=new Date().getFullYear()});
+document.addEventListener("DOMContentLoaded", () => {
+  const year = document.getElementById("year");
+  if (year) year.textContent = new Date().getFullYear();
+
+  const toggle = document.querySelector(".menu-toggle");
+  const nav = document.querySelector(".main-nav");
+  if (toggle && nav) {
+    toggle.addEventListener("click", () => {
+      const isOpen = nav.classList.toggle("open");
+      toggle.setAttribute("aria-expanded", String(isOpen));
+    });
+    nav.querySelectorAll("a").forEach(link => {
+      link.addEventListener("click", () => {
+        nav.classList.remove("open");
+        toggle.setAttribute("aria-expanded", "false");
+      });
+    });
+  }
+});
