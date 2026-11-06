@@ -1,22 +1,12 @@
-# Engineering Portfolio
+# Engineering Portfolio — GitHub Update
 
-A personal engineering portfolio website built with HTML, CSS and JavaScript and intended for deployment with GitHub Pages.
+This package adds the recruiter-focused homepage structure and project detail pages.
 
-## Files
-- `index.html` — website content and structure
-- `styles.css` — visual design and responsive layout
-- `script.js` — small interactive enhancement
+## Upload
+Replace your existing `index.html`, `styles.css`, `script.js` and `README.md`. Upload the five files inside `projects/` into a `projects` path in the repository.
 
-## Publish with GitHub Pages
-1. Upload all three website files to the root of this repository.
-2. In the repository, open **Settings → Pages**.
-3. Under **Build and deployment**, choose **Deploy from a branch**.
-4. Select branch `main` and folder `/(root)`, then save.
-5. Wait for GitHub Pages to publish the site. The URL will appear in the Pages settings.
-
-## Before sharing publicly
-- Replace the generic LinkedIn and GitHub links in `index.html` with your actual profile URLs.
-- Add a professional contact email only if you want it public.
-- Review every project description for accuracy.
-- Do not upload confidential employer information, proprietary documents, personal data, or images you are not authorised to publish.
-- Add only project visuals and technical details that you have permission to share.
+## Before publishing
+- Replace `YOUR_EMAIL`, `YOUR_LINKEDIN_URL` and `YOUR_GITHUB_URL` in `index.html`.
+- Review the skills and tools to ensure every item accurately reflects your experience.
+- Link only approved public documents. Do not publish confidential BMW information, internal screenshots, factory layouts, process parameters or non-public results.
+- Your existing `documents` item can remain for now; it does not affect the website.
