@@ -1,15 +1,12 @@
-# Engineering Portfolio
+# Engineering Portfolio — refreshed package
 
-## Upload structure
-
-Keep the files in this exact structure:
+## Important: preserve this exact structure
 
 ```text
-repository-root/
+repository/
 ├── index.html
 ├── styles.css
 ├── script.js
-├── README.md
 └── projects/
     ├── factory-digitalisation.html
     ├── battery-production.html
@@ -18,25 +15,17 @@ repository-root/
     └── wandflansch.html
 ```
 
-## Upload to GitHub
+## Replace the website files on GitHub
 
-1. Open your portfolio repository.
-2. Choose **Add file → Upload files**.
-3. Upload `index.html`, `styles.css`, `script.js`, and `README.md` into the repository root.
-4. Open the `projects` folder on your computer and upload its five HTML files into the existing `projects` folder in GitHub. If GitHub does not let you select a folder, open `projects` in the repository first, then upload the five files there.
-5. Commit all changes to `main`.
+1. Extract this ZIP on your computer.
+2. In your GitHub repository, upload and replace `index.html`, `styles.css` and `script.js` in the repository root.
+3. Open the existing `projects` folder in GitHub and upload/replace the five HTML files there.
+4. Commit the changes to `main`.
+5. Wait briefly, then hard-refresh the published page. The stylesheet and script use `?v=3` to help bypass cached older versions.
 
-Do not upload the ZIP itself as a replacement for the website files. Extract it first and preserve the folder structure.
+Do not upload the ZIP file itself. Upload the extracted files and keep the folder structure.
 
-## GitHub Pages
+## Personalise
+In `index.html`, replace `YOUR_EMAIL`, `YOUR_LINKEDIN_URL` and `YOUR_GITHUB_URL`.
 
-In **Settings → Pages**, choose **Deploy from a branch**, select `main`, and choose `/(root)`.
-
-## Personalise before publishing
-
-In `index.html`, replace:
-- `YOUR_EMAIL`
-- `YOUR_LINKEDIN_URL`
-- `YOUR_GITHUB_URL`
-
-The project descriptions are drafted from the information provided in the conversation. Please verify technical details and remove anything that is not accurate or approved for public release. Do not publish confidential BMW information, internal screenshots, production data, layouts, or process parameters.
+The project descriptions are based on details shared in the conversation. Please verify every tool, activity and claim before publishing. Keep confidential BMW data, internal screenshots, layouts and process details off the public site.
