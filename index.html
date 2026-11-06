@@ -1,28 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Engineering portfolio of Clotilda Che Lumnwi Binla.">
-<title>Clotilda Che Lumnwi Binla | Engineering Portfolio</title>
-<link rel="stylesheet" href="styles.css"><script src="script.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Engineering Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-<header class="site-header"><a class="wordmark" href="#home">CCLB<span>.</span></a><button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button><nav class="main-nav"><a href="#about">About</a><a href="#skills">Technical Skills</a><a href="#projects">Projects</a><a href="#expertise">Expertise</a><a href="#contact">Contact</a></nav></header>
-<main id="home">
-<section class="hero"><p class="eyebrow">ENGINEERING PORTFOLIO</p><h1>Clotilda Che<br><span>Lumnwi Binla</span></h1><h2>Mechanical Engineer <span class="divider">|</span> M.Sc. Electrical Energy Engineering</h2><p class="hero-copy">Engineering across battery technologies, production planning, industrial digitalisation and computer-aided design.</p></section>
-<section class="section" id="about"><div class="section-heading"><p class="eyebrow">01 / PROFILE</p><h2>About</h2></div><div class="section-content"><p class="lead">Mechanical Engineer specialising in Electrical Energy Engineering, with experience across battery technologies, production planning, CAD/CAM simulation and industrial digitalisation.</p><p>My work combines engineering, data and digital tools to translate technical requirements into practical solutions in academic and industrial environments.</p></div></section>
-<section class="section" id="skills"><div class="section-heading"><p class="eyebrow">02 / CAPABILITIES</p><h2>Technical Skills</h2></div><div class="section-content"><p class="section-intro">Click a skill to see where I applied it. The related project will be highlighted below.</p>
-<div class="skill-groups"><div class="skill-group"><h3>Engineering &amp; Simulation</h3><div class="skill-list"><button class="skill" data-project="exapt">SolidWorks</button><button class="skill" data-project="exapt">EXAPTsolid</button><button class="skill" data-project="exapt">AutoCAD</button><button class="skill" data-project="exapt">Autodesk</button></div></div>
-<div class="skill-group"><h3>Programming &amp; AI</h3><div class="skill-list"><button class="skill" data-project="thesis">Python</button><button class="skill" data-project="thesis">Jupyter</button><button class="skill" data-project="thesis">YOLO</button><button class="skill" data-project="thesis">PyTorch</button><button class="skill" data-project="thesis">MATLAB</button></div></div>
-<div class="skill-group"><h3>Digitalisation &amp; Data Analytics</h3><div class="skill-list"><button class="skill" data-project="factory">Power BI</button><button class="skill" data-project="factory">AWS Athena</button><button class="skill" data-project="factory">CDH</button><button class="skill" data-project="factory">Factory Viewer</button></div></div></div><p class="skill-preview" aria-live="polite">Choose a skill to preview its project connection.</p></div></section>
-<section class="section" id="projects"><div class="section-heading"><p class="eyebrow">03 / SELECTED WORK</p><h2>Explore Selected Projects</h2></div><div class="section-content"><div class="project-list">
-<article class="project-card" id="factory"><div><p class="project-type">BMW GROUP · INDUSTRIAL DIGITALISATION</p><h3>Factory Digitalisation &amp; Scanning</h3><p>Factory Viewer platform management, scanning and digitalisation support, Power BI user analytics, AWS Athena and CDH.</p></div><a href="projects/factory-digitalisation.html">View project ↗</a></article>
-<article class="project-card" id="battery"><div><p class="project-type">BMW GROUP · PRODUCTION PLANNING</p><h3>High-Voltage Battery Production Planning</h3><p>Production planning support and prototype testing in the Gen6 high-voltage battery manufacturing context.</p></div><a href="projects/battery-production.html">View project ↗</a></article>
-<article class="project-card" id="exapt"><div><p class="project-type">EXAPT SYSTEMTECHNIK · CAD/CAM</p><h3>CAD/CAM Simulation &amp; Application Support</h3><p>CAD/CAM simulation, application support and technical testing using EXAPTsolid, SolidWorks and related tools.</p></div><a href="projects/cad-cam.html">View project ↗</a></article>
-<article class="project-card" id="thesis"><div><p class="project-type">MASTER'S THESIS · FAU / BMW GROUP</p><h3>Image-Based AI for Battery Manufacturing</h3><p>Comparative evaluation of image-based AI methods for fault classification in thermal adhesive application.</p></div><a href="projects/masters-thesis.html">View project ↗</a></article>
-<article class="project-card" id="bachelor"><div><p class="project-type">BACHELOR'S THESIS · FH AACHEN</p><h3>Automated Manufacturing Information for a Wall Flange</h3><p>Design-for-manufacturing analysis and automated provision of design-related manufacturing information.</p></div><a href="projects/wandflansch.html">View project ↗</a></article>
-</div></div></section>
-<section class="section" id="expertise"><div class="section-heading"><p class="eyebrow">04 / FOCUS AREAS</p><h2>Expertise</h2></div><div class="section-content expertise-grid"><div><h3>Battery technologies</h3><p>High-voltage battery systems, energy storage technologies and manufacturing processes.</p></div><div><h3>Production planning</h3><p>Manufacturing requirements, prototype testing and process-oriented engineering.</p></div><div><h3>Digital engineering</h3><p>Industrial digitalisation, platform adoption, data analysis and visualisation.</p></div><div><h3>Computer-aided engineering</h3><p>CAD/CAM simulation, design-for-manufacturing and technical application support.</p></div></div></section>
-<section class="section" id="contact"><div class="section-heading"><p class="eyebrow">05 / CONNECT</p><h2>Contact</h2></div><div class="section-content"><p class="lead">Interested in engineering, battery technologies or digital manufacturing?</p><p>For professional enquiries and collaboration opportunities, feel free to get in touch.</p><div class="contact-links"><a href="mailto:YOUR_EMAIL">Email ↗</a><a href="YOUR_LINKEDIN_URL" target="_blank">LinkedIn ↗</a><a href="YOUR_GITHUB_URL" target="_blank">GitHub ↗</a></div></div></section>
-</main><footer><span>© <span id="year"></span> Clotilda Che Lumnwi Binla</span><span>Engineering Portfolio</span></footer>
-</body></html>
+
+<header class="hero">
+  <div class="container hero-inner">
+    <div class="hero-copy">
+      <p class="eyebrow">Engineering Portfolio</p>
+
+      <h1>Mechanical Engineer specialising in Electrical Energy Engineering</h1>
+
+      <p class="intro">
+        Engineering experience across electrical energy, battery production,
+        factory digitalisation, CAD/CAM and AI-supported manufacturing.
+      </p>
+    </div>
+  </div>
+</header>
+
+
+<main>
+
+<section class="section" id="skills">
+  <div class="container">
+
+    <p class="eyebrow">Technical Skills</p>
+    <h2>Skills linked to practical projects</h2>
+
+    <p class="section-intro">
+      Explore the technologies and engineering tools used across my projects.
+      Select a skill to view the project where it was applied.
+    </p>
+
+    <div class="skills-grid">
+
+      <a class="skill-button" href="projects/factory-digitalisation.html">
+        Power BI
+      </a>
+
+      <a class="skill-button" href="projects/factory-digitalisation.html">
+        Confluence
+      </a>
+
+      <a class="skill-button" href="projects/factory-digitalisation.html">
+      Jira
+      </a>
+
+      <a class="skill-button" href="projects/battery-production.html">
+        Microsoft 365
+      </a>
+
+      <a class="skill-button" href="projects/battery-production.html">
+        AWS Athena
+      </a>
+
+      <a class="skill-button" href="projects/battery-production.html">
+        CDH
+      </a>
+
+      <a class="skill-button" href="projects/cad-cam.html">
+        SolidWorks
+      </a>
+
+      <a class="skill-button" href="projects/cad-cam.html">
+        SQL
+      </a>
+
+      <a class="skill-button" href="projects/cad-cam.html">
+        Project Management
+      </a>
+
+      <a class="skill-button" href="projects/cad-cam.html">
+        Autodesk
+      </a>
+
+      <a class="skill-button" href="projects/masters-thesis.html">
+        Python
+      </a>
+
+      <a class="skill-button" href="projects/masters-thesis.html">
+        Jupyter
+      </a>
+
+      <a class="skill-button" href="projects/masters-thesis.html">
+        YOLO
+      </a>
+
+      <a class="skill-button" href="projects/masters-thesis.html">
+        PyTorch
+      </a>
+
+      <a class="skill-button" href="projects/masters-thesis.html">
+        MATLAB
+      </a>
+
+    </div>
+
+  </div>
+</section>
+
+
+<section class="section section-alt" id="projects">
+  <div class="container">
+
+    <p class="eyebrow">Selected Projects</p>
+    <h2>Engineering projects</h2>
+
+    <div class="project-grid">
+
+      <article class="project-card">
+        <p class="project-type">BMW</p>
+
+        <h3>Factory Digitalisation</h3>
+
+        <p>
+          Digitalisation, Power BI dashboard development, user analytics
+          and digital factory planning within an industrial production
+          environment.
+        </p>
+
+        <a href="projects/factory-digitalisation.html">
+          View project →
+        </a>
+      </article>
+
+
+      <article class="project-card">
+        <p class="project-type">BMW</p>
+
+        <h3>High-Voltage Battery Production Planning</h3>
+
+        <p>
+          Production planning and prototype-related work within the
+          high-voltage battery production environment, including
+          digital factory planning and production technologies.
+        </p>
+
+        <a href="projects/battery-production.html">
+          View project →
+        </a>
+      </article>
+
+
+      <article class="project-card">
+        <p class="project-type">CAD / CAM</p>
+
+        <h3>Project Management and CAD/CAM Simulations</h3>
+
+        <p>
+          Technical project and application support using SolidWorks,
+          EXAPTsolid, AutoCAD and Autodesk, including CAD/CAM simulation.
+        </p>
+
+        <a href="projects/cad-cam.html">
+          View project →
+        </a>
+      </article>
+
+
+      <article class="project-card">
+        <p class="project-type">Master's Thesis</p>
+
+        <h3>AI-Based Fault Classification</h3>
+
+        <p>
+          Image-based AI methods for fault classification in thermal
+          adhesive application for high-voltage battery cell clusters.
+        </p>
+
+        <a href="projects/masters-thesis.html">
+          View project →
+        </a>
+      </article>
+
+
+      <article class="project-card">
+        <p class="project-type">Bachelor's Thesis</p>
+
+        <h3>Procedure Development for Enhanced Production Efficiency</h3>
+
+        <p>
+          Development of a Procedure for Automated DFM Information
+          to enhance Machining Production Efficiency.
+        </p>
+
+        <a href="projects/wandflansch.html">
+          View project →
+        </a>
+      </article>
+
+    </div>
+
+  </div>
+</section>
+
+
+<section class="section" id="expertise">
+  <div class="container">
+
+    <p class="eyebrow">Expertise</p>
+    <h2>Engineering focus</h2>
+
+    <div class="expertise-grid">
+
+      <div>
+        <h3>Electrical Energy Engineering</h3>
+        <p>
+          Production Planning and R&D related to energy systems and high-voltage
+          battery production environments.
+        </p>
+      </div>
+
+      <div>
+        <h3>Production & Digitalisation</h3>
+        <p>
+          Digital factory planning, production systems, analytics and
+          industrial data applications.
+        </p>
+      </div>
+
+      <div>
+        <h3>CAD / CAM</h3>
+        <p>
+          Project Management, CAD/CAM development, simulation and technical application
+          support.
+        </p>
+      </div>
+
+      <div>
+        <h3>AI & Data</h3>
+        <p>
+          Image-based machine learning and data-driven engineering
+          applications.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<section class="section section-alt" id="contact">
+  <div class="container">
+
+    <p class="eyebrow">Contact</p>
+    <h2>Let's connect</h2>
+
+    <p>
+      For engineering opportunities, technical collaboration or further
+      information about my projects, please get in touch.
+    </p>
+
+    <div class="contact-links">
+
+      <a href="mailto:YOUR_EMAIL">
+        Email
+      </a>
+
+      <a href="YOUR_LINKEDIN_URL" target="_blank" rel="noopener">
+        LinkedIn
+      </a>
+
+      <a href="YOUR_GITHUB_URL" target="_blank" rel="noopener">
+        GitHub
+      </a>
+
+    </div>
+
+  </div>
+</section>
+
+</main>
+
+
+<footer>
+  <div class="container">
+    <p>© 2026 Engineering Portfolio</p>
+  </div>
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
