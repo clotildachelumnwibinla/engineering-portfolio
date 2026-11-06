@@ -1,4 +1,4 @@
-# Engineering Portfolio — refreshed package
+# Engineering Portfolio 
 
 ## Important: preserve this exact structure
 
